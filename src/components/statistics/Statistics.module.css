@@ -1,0 +1,26 @@
+.statistics {
+  display: inline-block;
+}
+.title {
+  text-align: center;
+  color: red;
+}
+.stat__list {
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+}
+.item {
+  min-width: 50px;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  border: 1px solid red;
+}
+.label {
+}
+.percentage {
+}
