@@ -3,7 +3,7 @@ import css from './TransactionHistory.module.css';
 export const TransactionHistory = ({ items }) => {
   // console.log(items);
   const getLineClassNames = elem => {
-    if (items.indexOf(elem) % 2 != 0) return `${css.tr}` + ' ' + `${css.grey}`;
+    if (items.indexOf(elem) % 2 !== 0) return `${css.tr} ${css.grey}`;
     else return `${css.tr}`;
   };
   return (

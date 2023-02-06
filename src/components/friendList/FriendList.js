@@ -4,9 +4,9 @@ import css from './FriendList.module.css';
 export const FriendsList = friends => {
   const getClassNames = isOnline => {
     if (isOnline) {
-      return `${css.status}` + ' ' + `${css.online}`;
+      return `${css.status} ${css.online}`;
     } else {
-      return `${css.status}` + ' ' + `${css.offline}`;
+      return `${css.status} ${css.offline}`;
     }
   };
   return (
